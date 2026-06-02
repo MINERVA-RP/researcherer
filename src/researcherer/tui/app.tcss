@@ -1,0 +1,81 @@
+/* researcherer Textual styles */
+
+Screen {
+    background: $surface;
+}
+
+/* ---- Library screen ---- */
+
+#library-table {
+    height: 1fr;
+    border: round $primary;
+}
+
+#library-empty {
+    height: 1fr;
+    content-align: center middle;
+    color: $text-muted;
+}
+
+/* ---- Viewer screen ---- */
+
+#page-view {
+    height: 1fr;
+    align: center middle;
+    overflow: hidden;
+}
+
+#page-image {
+    width: auto;
+    height: auto;
+}
+
+#page-text {
+    height: 1fr;
+    width: 1fr;
+    padding: 1 2;
+}
+
+#viewer-status {
+    height: 1;
+    dock: bottom;
+    background: $panel;
+    color: $text;
+    padding: 0 1;
+}
+
+#viewer-banner {
+    height: 1;
+    dock: top;
+    background: $warning;
+    color: $text;
+    content-align: center middle;
+}
+
+/* ---- Modal & search input ---- */
+
+FetchModal {
+    align: center middle;
+}
+
+#fetch-dialog {
+    width: 70%;
+    max-width: 90;
+    height: auto;
+    padding: 1 2;
+    border: thick $primary;
+    background: $panel;
+}
+
+#fetch-dialog Label {
+    margin-bottom: 1;
+}
+
+#search-input {
+    dock: bottom;
+    margin-bottom: 1;
+}
+
+.-hidden {
+    display: none;
+}
