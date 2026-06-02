@@ -1,5 +1,7 @@
 # researcherer
 
+[![CI](https://github.com/MINERVA-RP/researcherer/actions/workflows/ci.yml/badge.svg)](https://github.com/MINERVA-RP/researcherer/actions/workflows/ci.yml)
+
 A terminal UI (TUI) for fetching and reading **arXiv** papers as PDFs, built with
 [Textual](https://textual.textualize.io/).
 
